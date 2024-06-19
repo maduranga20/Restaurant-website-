@@ -1,12 +1,12 @@
 ## Technologies
-The technologies that I have been useing this project are
+The technologies that I have been using this project are
 -HTML 
 -CSS
  
  ## Process
-    If you know anyother programming languages are allow to submit.
+ If you know anyother programming languages are allow to submit.
     
-   Ex:- You can allow to use bootstrap insted of CSS.
+ Ex:- You can allow to use bootstrap insted of CSS.
    
     I expect from contributors
     -Find Issues then Clink on Issue tab. Discribe the issue. 
