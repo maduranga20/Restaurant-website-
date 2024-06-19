@@ -1,2 +1,4 @@
-# Restaurant-website-
-The website  use to be as a template for restaurants. 
+# Technologies
+The technologies that I have been useing this project are
+HTML CSS
+
