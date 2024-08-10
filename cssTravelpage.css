@@ -18,6 +18,7 @@ body{
     --header-font: "Open Sans";
     --navFont-color:rgb(185, 183, 183);
     --travel-resources: "Open Sans";
+    --font-tranding-places: "Open Sans";
 }
 
 header{
@@ -55,9 +56,7 @@ header{
   width: 25vw;
   padding: 10px;
   justify-content: center;   
-  /* align-content: center; */
   box-sizing: border-box;
-  /* background-color: blue; */
 
 }
 
@@ -69,14 +68,12 @@ header{
     color: var(--navFont-color);
     font-family: var(--footer-font);
     text-decoration: none; 
-    /* font-size: 0.8rem; */
     
 }
 
 
   #navButton{
     height: 30px;
-    /* background-color: blueviolet; */
   }
   button  {
     font-family: sans-serif;
@@ -111,7 +108,6 @@ header{
 
   }
   #story{
-    /* background-color: chocolate; */
     height: 30%;
     width: 100%;
     display: flex;
@@ -122,7 +118,6 @@ header{
     font-family: var(--header-font);
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 5px; */
     border: 2px solid rgb(220, 220, 220);
     width:  70%;
     height: auto;
@@ -136,7 +131,6 @@ header{
     width:  40em;
     height: auto;
     padding: 5px;
-    /* background-color: rgb(179, 219, 32); */
   }
     h3.coverContent{
     text-align: left;
@@ -222,15 +216,9 @@ header{
     box-sizing: border-box;
     box-shadow: 5px 8px 20px grey;
     margin: 5px;
-    color: var(--font-color);
-    font-family: var(--story-fonts);
+    /* overflow: hidden; */
     
 }  
-
-.mainPlace>img::after{
-  color: white;
-
-}
 .trendImages{
   display: flex;
   box-sizing: border-box;
@@ -244,7 +232,6 @@ header{
 }
 #headingPlaces{
   text-align: center;
-  /* font-family: Verdana, Tahoma, sans-serif; */
   font-family: var(--story-fonts);
   color: var(--font-color);
 }
@@ -254,11 +241,19 @@ header{
   object-fit: cover;
 }
 
-.mainPlace:nth-child(1)>p{
-  position: absolute;
+/* .mainPlace:nth-child(1)>p{
   top: 82rem;
   left: 6rem;
-  font-size: 1.2rem;
+  font-size: 12px;
+  color: var(--font-color);
+  font-family: var(--font-tranding-places);
+} */
+.mainPlace>p{
+  top: 82rem;
+  left: 6rem;
+  font-size: 12px;
+  color: var(--font-color);
+  font-family: var(--font-tranding-places);
 }
 #Grantimage{
   flex-basis: 100px;
@@ -281,11 +276,17 @@ header{
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  /* text-align: center; */
 }
 .card>p{
   font-size: 0.8rem;
+  margin-left: 0.5rem;
+
 }
+.card>h5{
+  text-align: center;
+  margin-top: 0rem;
+}
+
 
   /* rating star */
 .rate {
@@ -338,10 +339,8 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* background-color: rgb(199, 25, 25); */
   height: auto;
   width: 80%;
-  /* border: 5px solid green; */
   box-sizing: border-box;
   margin: 10px;
   padding: 5px;
@@ -351,8 +350,6 @@ footer{
 #footerleft{
   width: 25em;
   height: auto;
-  /* background-color: blueviolet; */
-  /* border: 5px solid rgb(0, 87, 128); */
   box-sizing: border-box;
   margin: 4px;
   padding: 2px;
@@ -370,8 +367,6 @@ footer{
 #footerMiddle{
   width: 40em;
   height: auto;
-  /* background-color: blueviolet; */
-  /* border: 5px solid rgb(0, 87, 128); */
   box-sizing: border-box;
   margin: 4px;
   padding: 2px;
@@ -396,7 +391,6 @@ footer{
   color: #0d0e0d;
   margin-left: 40%;
   margin-right: 50%;
-
 }
 .social>.fa-brands{
   font-size: 1.2rem;
